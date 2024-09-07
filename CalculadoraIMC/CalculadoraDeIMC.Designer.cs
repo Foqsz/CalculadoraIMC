@@ -1,6 +1,6 @@
 ﻿namespace CalculadoraIMC
 {
-    partial class Form1
+    partial class CalculadoraDeIMC
     {
         /// <summary>
         ///  Required designer variable.
@@ -137,7 +137,7 @@
             txtResultado.Text = "Resultado";
             txtResultado.Click += label1_Click;
             // 
-            // Form1
+            // CalculadoraDeIMC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -152,8 +152,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(idadeLb1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "CalculadoraDeIMC";
+            Text = "Calculadora de IMC";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

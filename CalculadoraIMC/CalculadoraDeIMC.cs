@@ -2,9 +2,9 @@ using System.Globalization;
 
 namespace CalculadoraIMC
 {
-    public partial class Form1 : Form
+    public partial class CalculadoraDeIMC : Form
     {
-        public Form1()
+        public CalculadoraDeIMC()
         {
             InitializeComponent();
         }
