@@ -55,9 +55,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 62);
             label1.Name = "label1";
-            label1.Size = new Size(151, 15);
+            label1.Size = new Size(211, 15);
             label1.TabIndex = 0;
-            label1.Text = "Você é Homem ou Mulher?";
+            label1.Text = "Como você prefere ser identificado(a)?";
             label1.Click += label1_Click;
             // 
             // label2
@@ -103,7 +103,7 @@
             // textBox2
             // 
             textBox2.BackColor = SystemColors.InactiveCaption;
-            textBox2.Location = new Point(169, 59);
+            textBox2.Location = new Point(229, 59);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(74, 23);
             textBox2.TabIndex = 2;
